@@ -1,8 +1,9 @@
 export class Book {
     bookID: number;
-    bookName: string ;
+    bookName: string;
     bookAuthor: string;
     bookPrice: number;
     bookGenre: string;
     borrowedStatus: boolean;
+    image: string;
 }

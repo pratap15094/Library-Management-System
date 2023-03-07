@@ -50,7 +50,7 @@ public class BookServiceImpl implements IBookService {
 		availableBook.setBookPrice(book.getBookPrice());
 		availableBook.setBookGenre(book.getBookGenre());
 		availableBook.setBorrowedStatus(book.isBorrowedStatus());
-
+		availableBook.setImage(book.getImage());
 		bookRepository.save(availableBook);
 		return availableBook;
 	}

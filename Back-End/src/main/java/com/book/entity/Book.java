@@ -17,9 +17,12 @@ public class Book {
 	private Float bookPrice;
 	private String bookGenre;
 	private Boolean borrowedStatus;
+	private String image;
+
+	
 
 	public Book(Integer bookID, String bookName, String bookAuthor, Float bookPrice, String bookGenre,
-			boolean borrowedStatus) {
+			Boolean borrowedStatus, String image) {
 		super();
 		this.bookID = bookID;
 		this.bookName = bookName;
@@ -27,6 +30,7 @@ public class Book {
 		this.bookPrice = bookPrice;
 		this.bookGenre = bookGenre;
 		this.borrowedStatus = borrowedStatus;
+		this.image = image;
 	}
 
 	public Book() {
@@ -81,4 +85,21 @@ public class Book {
 		this.borrowedStatus = borrowedStatus;
 	}
 
+	public Boolean getBorrowedStatus() {
+		return borrowedStatus;
+	}
+
+	public void setBorrowedStatus(Boolean borrowedStatus) {
+		this.borrowedStatus = borrowedStatus;
+	}
+
+	public String getImage() {
+		return image;
+	}
+
+	public void setImage(String image) {
+		this.image = image;
+	}
+
+	
 }

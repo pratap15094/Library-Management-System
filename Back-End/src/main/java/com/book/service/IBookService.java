@@ -15,8 +15,8 @@ public interface IBookService {
 
 	public void deleteBook(Integer bookID);
 
-	Book updateBook(Book book, Integer bookID);
+	public Book updateBook(Book book, Integer bookID);
 
-	Book updateStatus(Book book, Integer bookID);
+	public Book updateStatus(Book book, Integer bookID);
 
 }

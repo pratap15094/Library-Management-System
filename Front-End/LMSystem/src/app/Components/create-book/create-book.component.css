@@ -1,5 +1,6 @@
 .full-width {
-    width: 100%;
+    width: 90%;
+ 
     
 }
 input[type="radio"]{
@@ -9,5 +10,8 @@ input[type="radio"]{
     margin-top: 15px;
     margin-bottom: 15px;
     
+  }
+  .container{
+    height:  50%;
   }
 

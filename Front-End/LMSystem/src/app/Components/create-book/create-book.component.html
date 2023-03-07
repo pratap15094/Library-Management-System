@@ -9,7 +9,6 @@
                     <div class="form-group">
                         <label for="name">Book Name</label>
                         <input type="text" class="form-control" required [(ngModel)]="books.bookName" name="name" />
-
                     </div>
 
                     <div class="form-group">
@@ -26,6 +25,11 @@
                         <label>Book Price</label>
                         <input type="number" class="form-control" id="bookprice" required [(ngModel)]="books.bookPrice"
                             name="bookPrice" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Book Image</label>
+                        <input type="text" class="form-control" id="image" required [(ngModel)]="books.image"
+                            name="bookAuthor" required>
                     </div>
                     <div>
                         <label for="Avability">Avability: </label>
